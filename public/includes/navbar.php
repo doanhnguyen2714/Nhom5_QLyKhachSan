@@ -38,8 +38,12 @@
           aria-expanded="false"
           >
           <i class="fa fa-user-circle-o"></i>&nbsp;
-          
-
+          <?php
+            if (isLoggedIn()) {
+                echo $_SESSION["user_fname"];
+            } else {
+                echo "Account";
+            } ?>
         </a>
         <div
           class="dropdown-menu dropdown-menu-right"

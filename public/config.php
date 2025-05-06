@@ -1,7 +1,7 @@
 <?php
 define('DS', DIRECTORY_SEPARATOR);
 define('ROOT', dirname(__FILE__));
-define("SROOT", $_SERVER['SERVER_NAME']."/hotel-management/Nhom5_QLyKhachSan/public");
+define("SROOT", $_SERVER['SERVER_NAME']."/Nhom5_QLyKhachSan/public");
 define("IMAGEROOT", SROOT."/media/images/rooms/");
 
 // Database

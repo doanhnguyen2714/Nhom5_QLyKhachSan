@@ -8,9 +8,9 @@ include("./includes/header.php");
         padding:4em 0;
     }
 
-    /* .details{{
+    .details{
         background-color:grey !important;
-    }} */
+    }
 
     p,ul{
         color:grey;
