@@ -18,3 +18,6 @@ define("FTPPASS", getenv("env_ftp_pass"));
 require_once(ROOT.DS."core".DS."db.php");
 require_once(ROOT.DS."core".DS."utils.php");
 require_once(ROOT.DS."core".DS."upload_image.php");
+?>
+
+
